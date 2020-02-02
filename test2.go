@@ -30,3 +30,8 @@ func plus(n1, n2 int) {
 	X := n1 + n2
 	fmt.Println(X)
 }
+
+func minus(n1, n2 int) {
+	X := n1 - n2
+	fmt.Println(X)
+}
