@@ -5,6 +5,7 @@ import "fmt"
 func main() {
 	AZ := []int{}
 	kk(0, &AZ)
+	fmt.Print("Number 0-10 = ")
 	fmt.Println(AZ)
 }
 
