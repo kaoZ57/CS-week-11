@@ -7,7 +7,7 @@ func main() {
 	kk(0, &AZ)
 	fmt.Print("Number 0-10 = ")
 	fmt.Scan(&num)
-	fmt.Println(AZ)
+	fmt.Println("Number =", AZ[num])
 }
 
 func kk(i int, AZ *[]int) {
