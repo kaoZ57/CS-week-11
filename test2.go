@@ -25,3 +25,8 @@ X:
 		goto X
 	}
 }
+
+func plus(n1, n2 int) {
+	X := n1 + n2
+	fmt.Println(X)
+}
